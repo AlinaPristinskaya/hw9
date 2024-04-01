@@ -11,10 +11,8 @@ for (const el of array) {
 
 
 const callback=function (el) {
-    const testElement=el.split('')
-    if(testElement.length===6){
-        return el
-    } 
+ return el.length===6
+   
 } 
 
 console.log(    myFilterFunction([
